@@ -1,0 +1,23 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "tdd with js",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfWider/js-tdd.git"
+  },
+  "author": "Prof. Dr. Arif Wider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProfWider/js-tdd/issues"
+  },
+  "homepage": "https://github.com/ProfWider/js-tdd#readme"
+}
