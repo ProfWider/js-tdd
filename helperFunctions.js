@@ -28,7 +28,7 @@ function testFun () {
     }
   ]
 
-  const result = persons[2]?.address?.city?.toLowerCase()
+  const result = persons[0]?.address?.city?.toLowerCase()
 
   console.log(result == null) // result is undefined
 

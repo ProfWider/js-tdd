@@ -1,11 +1,11 @@
-import helpers from '@/components/helperFunctions'
+import helpers from './helperFunctions'
 
 test('test function...', () => {
   expect(helpers.testFun()).toBe('berlin')
 })
 
 test('default args...', () => {
-  expect(helpers.defaultArgs()).toBe('1')
+  expect(helpers.defaultArgs(-41)).toBe('1')
 })
 
 test('transform...', () => {

@@ -5,16 +5,12 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'plugin:vue/essential',
-    'airbnb-base',
+    'eslint:recommended'
   ],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'vue',
-  ],
   rules: {
   },
 };
